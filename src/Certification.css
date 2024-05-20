@@ -1,0 +1,40 @@
+/* Certification.css */
+
+.certification {
+  padding: 4rem;
+  background: linear-gradient(135deg, #a3c8ff, #4b3be2); /* Gradient background with blue family colors */
+  color: #fff; /* White text color */
+  text-align: center; /* Aligning text in center */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #ffd700; /* Gold color for headings */
+  margin-bottom: 30px;
+  text-transform: uppercase; /* Transforming text to uppercase */
+}
+
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-list li {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  background-color: #001f3f; /* Dark blue background for list items */
+  color: #fff; /* White text color */
+  padding: 20px; /* Adding padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
+  transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect */
+}
+
+.activity-list li:hover {
+  transform: translateY(-5px); /* Moving the item up on hover */
+}

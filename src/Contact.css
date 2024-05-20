@@ -1,0 +1,48 @@
+/* Contact.css */
+
+.contact {
+  padding: 4rem;
+  background: linear-gradient(135deg, #b3e0ff, #007bff); /* Gradient background with blue family colors */
+  color: #fff; /* White text color */
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffd700; /* Gold color for headings */
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.contact-list li a {
+  color: #fff; /* White color for links */
+  text-decoration: none;
+}
+
+.contact-list li a:hover {
+  text-decoration: underline;
+}

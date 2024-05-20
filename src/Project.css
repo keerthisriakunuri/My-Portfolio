@@ -1,0 +1,42 @@
+/* Project.css */
+
+.projects {
+  padding: 4rem;
+  background: linear-gradient(135deg, #a3c8ff, #4b3be2); /* Gradient background with blue family colors */
+  color: #fff; /* White text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ee4806; /* Orange color for headings */
+  margin-bottom: 30px;
+}
+
+.project {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  color: #ffd700; /* Gold color for project titles */
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #eee; /* Light gray color for project descriptions */
+}

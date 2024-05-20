@@ -1,0 +1,77 @@
+.header {
+  background: linear-gradient(to right, #5c258d, #4389a2); /* Gradient background */
+  color: #fff; /* White text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  position: relative; /* Adding position relative for z-index */
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 2rem;
+}
+
+.nav__link {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.header__title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding a shadow for better contrast */
+}
+
+.header__subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.header__content img {
+  width: 120px; /* Adjust the image size */
+  height: 120px; /* Adjust the image size */
+  border-radius: 50%; /* Making the image round */
+  margin-bottom: 1rem;
+  animation: pulse 2s infinite alternate; /* Adding a pulse animation */
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

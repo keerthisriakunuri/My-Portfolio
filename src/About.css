@@ -1,0 +1,31 @@
+/* About.css */
+
+.about {
+  background: linear-gradient(135deg, #0077ff, #a3c8ff); /* Gradient background with bluish colors */
+  color: #fff; /* White text color */
+  padding: 4rem;
+  text-align: center;
+}
+
+.about__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.about__text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.about__text center {
+  display: block; /* Center align text */
+  margin: 0 auto; /* Center align text */
+}
